@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @desc 代码的方式配置servlet容器（tomcat等） 注册实现 EmbeddedServletContainerCustomizer
- *        重写 customize(ConfigurableEmbeddedServletContainer container)
+ * @desc 代码的方式配置servlet容器（tomcat等） 注册实现 WebServerFactoryCustomizer
+ *        重写 customize(ConfigurableTomcatWebServerFactory container)
  * @author lee
  */
 @Configuration
